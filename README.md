@@ -22,15 +22,16 @@ To get both micro-services up and running, follow these steps:
 
    Start by cloning this repository to your local machine using the following command:
    ```
-   git clone <repository-url>
+   git clone https://github.com/tavorperry/backend-micro-services
    ```
 
 2. **Navigate to the Repository Directory**
 
    Change into the repository directory:
    ```
-   cd <repository-name>
+   cd backend-micro-services
    ```
+   And change the github token in the .env + docker-compose.yml file to your own token.
 
 3. **Build and Run with Docker Compose**
 

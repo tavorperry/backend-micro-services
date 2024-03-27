@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  githubms:
+    build: ./GitHubMS
+    ports:
+      - "3000:3000"
+    environment:
+      - USERMS_URL=http://userms:3001/api
+      - GITHUB_TOKEN = //Your GitHub Token
+
+  userms:
+    build: ./UsersMS
+    ports:
+      - "3001:3001"
+
