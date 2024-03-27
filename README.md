@@ -60,4 +60,4 @@ docker-compose down
 ```
 
 ## Don't forget
-Do not forget to run also the FE part of the project. You can find the repository [here](
+Do not forget to run also the FE part of the project. You can find the repository [here](https://github.com/tavorperry/zest-dashboard)
